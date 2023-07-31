@@ -1,0 +1,6 @@
+projectKey=script_export
+serverUrl=http://sonarqube.pao.opstella.in.th
+serverVersion=10.1.0.73491
+dashboardUrl=http://sonarqube.pao.opstella.in.th/dashboard?id=script_export
+ceTaskId=AYmq6WzqDbvmf4Aja5lm
+ceTaskUrl=http://sonarqube.pao.opstella.in.th/api/ce/task?id=AYmq6WzqDbvmf4Aja5lm
