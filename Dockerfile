@@ -5,7 +5,7 @@ WORKDIR /build
 COPY . .
 RUN export CGO_ENABLED=0 && make build
 
-FROM alpine:3.18.2
+FROM alpine:3.18.4
 RUN apk add --no-cache --update bash curl jq ca-certificates
 COPY --from=build /build/bin/script_exporter /bin/script_exporter
 EXPOSE 9469
